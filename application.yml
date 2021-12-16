@@ -7,26 +7,21 @@ lucky-word: Combined
 words: Hi
 ---
 spring:
-  profiles:
-    active: subject
+  profiles: subject
 words: I,You,He,She,It
 ---
 spring:
-  profiles:
-    active: verb
+  profiles: verb
 words: ran,knew,had,saw,bought
 ---
 spring:
-  profiles:
-    active: article
+  profiles: article
  words: a,the
 ---
 spring:
-  profiles:
-    active: adjective
+  profiles: adjective
 words: reasonable,leaky,suspicious,ordinary,unlikely    
 ---
 spring:
-  profiles:
-    active: noun
+  profiles: noun
  words: boat,book,vote,seat,backpack,partition,groundhog
