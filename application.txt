@@ -6,7 +6,9 @@ lucky-word: Combined
 words: Hi
 ---
 spring:
-  profiles: subject
+  application:
+    name: lab4
+  profiles: subject,test
 words: I,You,He,She,It
 ---
 spring:
