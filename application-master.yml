@@ -1,28 +1,5 @@
+---
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8010/eureka
-lucky-word: Combined
-words: Hi
----
-spring:
-  application:
-    name: lab4
-  profiles: subject,test
-words: I,You,He,She,It
----
-spring:
-  profiles: verb
-words: ran,knew,had,saw,bought
----
-spring:
-  profiles: article
- words: a,the
----
-spring:
-  profiles: adjective
-words: reasonable,leaky,suspicious,ordinary,unlikely    
----
-spring:
-  profiles: noun
- words: boat,book,vote,seat,backpack,partition,groundhog
