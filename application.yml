@@ -1,3 +1,5 @@
+#Because this file is named "application.*", the properties set within apply to all clients of the Config server. 
+#This is great for us as we want all clients to find the Eureka server.
 ---
 eureka:
   client:
